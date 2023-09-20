@@ -27,7 +27,7 @@
         </table>
 <div th:if="'manicure' == ${manipedi}">
     <h2 th:text="Manicure"></h2>
-    <h3 th:if="${manipedi} == 'manicure'" th:replace="fragments :: manicureDescription">Manicure</h3>
+    <h3 th:replace="fragments :: manicureDescription">Manicure</h3>
 </div>
 <div th:if="'pedicure' == ${manipedi}">
     <h2 th:text="Pedicure"></h2>
